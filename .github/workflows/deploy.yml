@@ -7,7 +7,7 @@ name: 🚀 Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
-    runs-on: ubuntu-latest
+    runs-on: window
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
@@ -23,7 +23,7 @@ jobs:
         npm run build
     
     - name: 📂 Sync files
-      uses: komaldesigner/cicdpip@v1.0.2
+      uses: komaldesigner/CICDPIP@v1.0.2
       with:
         server: ${{ secrets.GIT_CPANEL_REACT_SERVER }}
         username: ${{ secrets.GIT_CPANEL_REACT_USER }}
