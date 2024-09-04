@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h4>GITHUB ACTIONS, REACT JS AND CPANEL AUTO DEPLOYMENT</h4>
+        <h4>Harman,Sachin github hai</h4>
         <p>This change will appear on the website immediately. Like seriously no</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
