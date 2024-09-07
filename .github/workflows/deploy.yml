@@ -26,8 +26,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PWD }}
-        protocol: ${{ secrets.FTP_PROTOCOL }}
+        username: ${{ secrets.FTP__USER }}
+        password: ${{ secrets.FTP__PWD }}
+        protocol: ${{ secrets.FTP__PROTOCOL }}
         local-dir: ./build/
         server-dir: /public_html
