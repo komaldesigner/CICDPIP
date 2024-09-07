@@ -23,7 +23,7 @@ jobs:
         npm run build
     
     - name: 📂 FTP Deploy
-      uses: komaldesigner/CICDPIP@v4.3.4
+      uses: komaldesigner/CICDPIP@v1.0.2
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP__USER }}
